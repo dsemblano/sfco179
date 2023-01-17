@@ -5,7 +5,7 @@
 
   <nav class="nav-primary container lg:px-24">
     {{-- menu mobile --}}
-    <div id="mobile-menu" class="flex flex-wrap order-3 ml-8 md:hidden">
+    <div id="mobile-menu" class="flex flex-wrap justify-between order-3 ml-8 md:hidden">
       <button id="button-search" type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3"
         aria-expanded="false"
         class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1">
