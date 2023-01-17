@@ -34,7 +34,7 @@
   }
 }
 
-.menu-menu-container {
+.menu-principal-container {
   @apply w-full;
 
   box-shadow: 3px 8px 6px rgba(0, 0, 0, 0.2);
@@ -58,7 +58,7 @@
 
 @screen xl {
 
-  .menu-menu-container {
+  .menu-principal-container {
     box-shadow: none;
 
     ul#menu-menu {

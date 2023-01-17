@@ -1,9 +1,9 @@
-<header class="banner bg-black">
+<header class="banner bg-black w-full">
   <a class="brand" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a>
 
-  <div class="container lg:px-24">
+  <nav class="nav-primary container lg:px-24">
     {{-- menu mobile --}}
     <div id="mobile-menu" class="flex flex-wrap order-3 ml-8 md:hidden">
       <button id="button-search" type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3"
@@ -33,7 +33,7 @@
     </div>
 
     {{-- menu desktop --}}
-    <div class="hidden justify-between items-center w-full order-4 md:flex md:order-2" id="mobile-menu-3">
+    <div class="hidden order-4 md:flex md:order-2 justify-between items-center w-full " id="mobile-menu-3">
       <div class="relative mt-3 md:hidden">
         @include('partials/inputsearch')
       </div>
@@ -41,6 +41,6 @@
       tracking-widest w-full justify-evenly
       md:flex-row md:mt-0 nav text-lg relative']) !!}
     </div>
-  </div>
+  </nav>
 
 </header>
