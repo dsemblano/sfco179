@@ -3,7 +3,6 @@
         <header class="mx-auto container flex justify-center">
             <div class="">
                 <h1 class="logo">
-                    dsddasdsadsa
                     <picture>
                     <img src="@asset('images/logo.png')" alt="Logo SFCO 179">
                     </picture>

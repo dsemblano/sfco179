@@ -3,8 +3,8 @@
 </a>
 
 @include('sections.header')
-
-  <main id="main" class="main">
+@php $current_page = basename(get_permalink()) @endphp
+<main id="main" class="main{{ ! is_front_page() ? " $current_page container lg:px-24" : '' }}">
     @yield('content')
   </main>
 
