@@ -7,3 +7,8 @@
 .aligncenter {
     margin: 0 auto;
 }
+
+// Prose TailwindCSS
+.prose :where(ul):not(:where([class~="not-prose"] *)) {
+    padding-left: 0;
+}
