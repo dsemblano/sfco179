@@ -2,3 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './menu.scss';
+
+// Wordpress block
+.aligncenter {
+    margin: 0 auto;
+}
