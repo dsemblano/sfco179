@@ -1,4 +1,4 @@
-<article class="prose md:prose-lg lg:prose-xl mx-auto max-w-none">
+<article class="prose md:prose-lg lg:prose-xl mx-auto">
     @php(the_content())
 </article>
 
