@@ -1136,6 +1136,36 @@
           "name": "Rose 900",
           "slug": "rose-900",
           "color": "#881337"
+        },
+        {
+          "name": "Greennos",
+          "slug": "greennos",
+          "color": "#1ebe85"
+        },
+        {
+          "name": "Graynos",
+          "slug": "graynos",
+          "color": "#a6a6a6"
+        },
+        {
+          "name": "Greennoshover",
+          "slug": "greennoshover",
+          "color": "#22a3a5"
+        },
+        {
+          "name": "Greymenu",
+          "slug": "greymenu",
+          "color": "#3e4435"
+        },
+        {
+          "name": "Greymenuhover",
+          "slug": "greymenuhover",
+          "color": "#57604a"
+        },
+        {
+          "name": "Greydarkest",
+          "slug": "greydarkest",
+          "color": "#262a31"
         }
       ]
     },
