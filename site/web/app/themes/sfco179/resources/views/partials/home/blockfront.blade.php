@@ -8,7 +8,7 @@
                     </picture>
                 </h1>
     
-                <div class="flex social-icons justify-evenly text-white relative">
+                <div class="flex social-icons justify-evenly text-white relative mt-10">
                     <a href="https://www.instagram.com/sfco179" target="_blank" aria-label="Link para o Instagram">
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
                             <path
