@@ -1,6 +1,6 @@
 <section class="bg-home bg-black h-full min-h-screen overflow-hidden">
     <div class="bg-homechild flex justify-center items-center min-h-screen">
-        <header class="mx-auto container flex justify-center bg-red-500">
+        <header class="mx-auto container flex justify-center">
             <div class="">
                 <div class="flex social-icons justify-around text-white relative mt-14 text-2xl lg:hidden">
                     <a class="" href="/eventos">179 Eventos</a>
