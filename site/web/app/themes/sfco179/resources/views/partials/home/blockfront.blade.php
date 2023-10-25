@@ -27,9 +27,7 @@
                         </svg>
                     </a>
 
-                    <button class="button-40" role="button">
-                        <a href="/eventos">179 Eventos</a>
-                    </button>
+                    <a href="#" class="btn-flip" data-back="Saiba mais" data-front="179 eventos"></a>
                 </div>
             </div>
             
