@@ -42,6 +42,8 @@ $speed: 0.5s;
   }
   
   &:after{
+    @apply bg-whitenos;
+
     top: 0;
     left: 0;
     opacity: 0;
@@ -50,16 +52,18 @@ $speed: 0.5s;
     display: block;
     transition: $speed;
     position: absolute;
-    background: #adadaf;
+    // background: #e5e7eb;
     content: attr(data-back);
     transform: translateY(-50%) rotateX(90deg);
   }
   
   &:before{
+    @apply text-whitenos;
+
     top: 0;
     left: 0;
     opacity: 1;
-    color: #adadaf;
+    // color: #e5e7eb;
     display: block;
     // padding: 0 30px;
     padding: 0 20px;
@@ -72,6 +76,6 @@ $speed: 0.5s;
   }
 }
 
-.social-icons {
-    color: #adadaf;
-}
+// .social-icons {
+//     color: #e5e7eb;
+// }

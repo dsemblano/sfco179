@@ -8,6 +8,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        whitenos: '#e5e7eb',
         greennos: '#1ebe85',
         graynos: '#a6a6a6',
         greennoshover: '#22A3A5',
