@@ -3,7 +3,7 @@
     {!! $siteName !!}
   </a> --}}
 
-  <nav class="nav-primary container lg:px-24">
+  <nav class="nav-primary container px-0 lg:px-24">
     {{-- menu mobile --}}
 
     @if (! is_front_page())    
@@ -50,7 +50,7 @@
 @endif
 
     {{-- menu desktop --}}
-    <div class="hidden md:flex justify-between items-center w-full " id="mobile-menu-3">
+    <div class="hidden md:flex justify-between items-center w-full bg-greynos md:bg-transparent" id="mobile-menu-3">
 
       @if (! is_front_page())
       <a class="brand hidden md:block md:order-1" href="{{ home_url('/') }}">
@@ -63,7 +63,7 @@
         @include('partials/inputsearch')
       </div> --}}
       
-      {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2', 'menu_class' => 'flex flex-col py-2 text-white
+      {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6', 'menu_class' => 'flex flex-col py-2 text-white
       tracking-widest w-full justify-evenly
       md:flex-row md:mt-0 nav text-lg relative']) !!}
     </div>

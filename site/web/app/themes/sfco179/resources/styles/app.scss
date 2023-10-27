@@ -58,7 +58,7 @@ $speed: 0.5s;
   }
   
   &:before{
-    @apply text-whitenos;
+    @apply text-whitenos bg-greynos;
 
     top: 0;
     left: 0;
@@ -70,7 +70,7 @@ $speed: 0.5s;
     line-height: 40px;
     transition: $speed;
     position: relative;
-    background: #323237;
+    // background: #323237;
     content: attr(data-front);
     transform: translateY(0) rotateX(0);
   }
