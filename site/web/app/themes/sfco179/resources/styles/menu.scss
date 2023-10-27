@@ -19,9 +19,11 @@
 
 @media (max-width: 992px) {
   .home .nav-primary {
-    ul {
+    ul li {
       // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
       // padding: 1rem;
+      // background-color: red;
+      padding: 0.5rem 0 0.5rem 0;
     }
   }
 }
