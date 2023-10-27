@@ -27,7 +27,7 @@
                         </svg>
                     </a>
 
-                    <a href="/eventos" class="btn-flip" data-back="Saiba mais" data-front="179 eventos"></a>
+                    <a href="/eventos" aria-label="Saiba mais sobre nossos eventos clicando aqui" class="btn-flip" data-back="Saiba mais" data-front="179 eventos"></a>
                 </div>
             </div>
             
