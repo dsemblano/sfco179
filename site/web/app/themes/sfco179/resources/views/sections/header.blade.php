@@ -52,7 +52,7 @@
     {{-- menu desktop --}}
     <div class="hidden md:flex justify-between items-center w-full relative" id="mobile-menu-3">
 
-      <div class="menuwrap absolute lg:sticky bg-greynos md:bg-transparent w-full">
+      <div class="menuwrap absolute lg:static bg-greynos md:bg-transparent w-full">
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
         tracking-widest w-full justify-evenly
         md:flex-row md:mt-0 nav text-lg relative']) !!}
