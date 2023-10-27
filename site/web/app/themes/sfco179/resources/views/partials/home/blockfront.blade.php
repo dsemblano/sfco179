@@ -1,4 +1,4 @@
-<section class="bg-home bg-black h-full min-h-screen overflow-hidden">
+<section class="bg-home bg-black h-full">
     <div class="bg-homechild flex justify-center items-center min-h-screen">
         <header class="mx-auto container flex justify-center">
             <div class="flex flex-col justify-center items-center">
