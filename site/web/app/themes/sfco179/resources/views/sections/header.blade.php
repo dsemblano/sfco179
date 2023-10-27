@@ -50,22 +50,14 @@
 @endif
 
     {{-- menu desktop --}}
-    <div class="hidden md:flex justify-between items-center w-full bg-greynos md:bg-transparent" id="mobile-menu-3">
+    <div class="hidden md:flex justify-between items-center w-full relative" id="mobile-menu-3">
 
-      @if (! is_front_page())
-      <a class="brand hidden md:block md:order-1" href="{{ home_url('/') }}">
-        <img src="@asset('images/logo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
-          class="w-16 py-2" />
-      </a>
-      @endif
-
-      {{-- <div class="relative mt-3 md:hidden md:order-3">
-        @include('partials/inputsearch')
-      </div> --}}
+      <div class="menuwrap absolute lg:sticky bg-greynos md:bg-transparent w-full">
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
+        tracking-widest w-full justify-evenly
+        md:flex-row md:mt-0 nav text-lg relative']) !!}
+      </div>
       
-      {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6', 'menu_class' => 'flex flex-col py-2 text-white
-      tracking-widest w-full justify-evenly
-      md:flex-row md:mt-0 nav text-lg relative']) !!}
     </div>
   </nav>
 

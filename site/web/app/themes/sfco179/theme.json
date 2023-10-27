@@ -1143,21 +1143,6 @@
           "color": "#e5e7eb"
         },
         {
-          "name": "Graynos",
-          "slug": "graynos",
-          "color": "#a6a6a6"
-        },
-        {
-          "name": "Greennos",
-          "slug": "greennos",
-          "color": "#1ebe85"
-        },
-        {
-          "name": "Greennoshover",
-          "slug": "greennoshover",
-          "color": "#22a3a5"
-        },
-        {
           "name": "Greymenu",
           "slug": "greymenu",
           "color": "#3e4435"
@@ -1168,9 +1153,9 @@
           "color": "#57604a"
         },
         {
-          "name": "Greydarkest",
-          "slug": "greydarkest",
-          "color": "#262a31"
+          "name": "Greynos",
+          "slug": "greynos",
+          "color": "#323237"
         }
       ]
     },
