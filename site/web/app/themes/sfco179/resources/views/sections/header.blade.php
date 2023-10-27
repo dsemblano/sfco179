@@ -8,7 +8,7 @@
 
     @if (! is_front_page())    
 
-    <div class="flex justify-between">
+    <div class="flex justify-end lg:justify-between">
 
       <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 order-2 md:hidden"> 
         <button id="button-sandwich" aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
