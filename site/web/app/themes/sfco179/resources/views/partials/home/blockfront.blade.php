@@ -7,7 +7,7 @@
                 </div>    --}}
                 <h1 class="logo">
                     <picture>
-                    <img src="@asset('images/logo.png')" alt="Logo SFCO 179">
+                    <img width="160" height="128" src="@asset('images/logo.png')" alt="Logo SFCO 179">
                     </picture>
                 </h1>
     

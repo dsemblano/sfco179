@@ -10,11 +10,6 @@
 
     <div class="flex justify-between">
 
-      <a class="brand md:hidden order-1" href="{{ home_url('/') }}">
-        <img src="@asset('images/logo.png')" width="61" height="43" alt="Tijolo Comidas e Vinhos"
-          class="w-16 py-2" />
-      </a>
-
       <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 order-2 md:hidden"> 
         <button id="button-sandwich" aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
           class="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden order-2" aria-controls="mobile-menu-3"
