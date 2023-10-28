@@ -20,10 +20,11 @@
 @media (max-width: 992px) {
   .nav-primary {
     ul li {
+      @apply my-4 lg:my-0;
       // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
       // padding: 1rem;
       // background-color: red;
-      margin: 1.5rem 0 1rem 0;
+      // margin: 1.5rem 0 1rem 0;
     }
   }
 }
