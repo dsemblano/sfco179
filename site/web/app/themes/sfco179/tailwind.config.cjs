@@ -16,9 +16,10 @@ module.exports = {
       typography: {
         DEFAULT: { // this is for prose class
           css: {
-            h1: {
-              fontWeight: '400', // change h1 font-weight
-            },
+            ...['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].reduce((obj, heading) => {
+              obj[heading] = { fontWeight: '400' };
+              return obj;
+            }, {}),
           },
         },
       },
