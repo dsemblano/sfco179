@@ -13,6 +13,15 @@ module.exports = {
         greymenuhover: '#57604a',
         greynos: '#323237'
       }, // Extend Tailwind's default colors
+      typography: {
+        DEFAULT: { // this is for prose class
+          css: {
+            h1: {
+              fontWeight: '400', // change h1 font-weight
+            },
+          },
+        },
+      },
     },
   },
   plugins: [

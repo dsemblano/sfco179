@@ -8,6 +8,20 @@
 //   height: calc(var(--vh, 1vh) * 100);
 // }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 // Wordpress block
 .aligncenter {
     margin: 0 auto;
