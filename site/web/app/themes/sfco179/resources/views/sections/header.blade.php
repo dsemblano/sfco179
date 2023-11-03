@@ -53,9 +53,17 @@
     <div class="hidden md:flex justify-between items-center w-full relative" id="mobile-menu-3">
 
       <div class="menuwrap absolute lg:static bg-greynos md:bg-transparent w-full">
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
-        tracking-widest w-full justify-evenly
-        md:flex-row md:mt-0 nav text-lg relative']) !!}
+        <div class="rowmenu flex flex-col md:flex-row items-center pt-8 md:pt-0">
+          @if ( !is_front_page() )
+          <a class="brand" href="{{ home_url('/') }}">
+            <img width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
+          </a>
+          @endif
+          {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
+          tracking-widest w-full justify-evenly
+          md:flex-row md:mt-0 nav text-lg relative']) !!}
+        </div>
+        
       </div>
       
     </div>
