@@ -30,10 +30,6 @@
                     <a href="/eventos" aria-label="Saiba mais sobre nossos eventos clicando aqui" class="btn-flip" data-back="Saiba mais" data-front="179 eventos"></a>
                 </div>
             </div>
-            
-            <!-- <h1>SFCO179</h2>
-                <p>MULTISPACE</p>
-                <p></p> -->
         </header>
 
     </div>
