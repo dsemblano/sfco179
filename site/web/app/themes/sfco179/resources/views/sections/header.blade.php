@@ -56,7 +56,7 @@
     {{-- menu desktop --}}
     <div class="hidden md:flex justify-between items-center w-full relative" id="mobile-menu-3">
       @if ( !is_front_page() )
-      <a class="brand hidden md:block pt-2" href="{{ home_url('/') }}">
+      <a title="Ir para a home" class="brand hidden md:block pt-2" href="{{ home_url('/') }}">
         <img width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
       </a>
       @endif
