@@ -8,8 +8,12 @@
 
     @if (! is_front_page())    
 
-    <div class="flex justify-end lg:justify-between">
-
+    <div class="flex justify-between md:hidden">
+      @if ( !is_front_page() )
+      <a class="brand pl-6 pt-2" href="{{ home_url('/') }}">
+        <img width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
+      </a>
+      @endif
       <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 order-2 md:hidden"> 
         <button id="button-sandwich" aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
           class="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden order-2" aria-controls="mobile-menu-3"
@@ -51,19 +55,15 @@
 
     {{-- menu desktop --}}
     <div class="hidden md:flex justify-between items-center w-full relative" id="mobile-menu-3">
-
+      @if ( !is_front_page() )
+      <a class="brand pt-2" href="{{ home_url('/') }}">
+        <img width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
+      </a>
+      @endif
       <div class="menuwrap absolute lg:static bg-greynos md:bg-transparent w-full">
-        <div class="rowmenu flex flex-col md:flex-row items-center pt-8 md:pt-0">
-          @if ( !is_front_page() )
-          <a class="brand" href="{{ home_url('/') }}">
-            <img width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
-          </a>
-          @endif
-          {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
-          tracking-widest w-full justify-evenly
-          md:flex-row md:mt-0 nav text-lg relative']) !!}
-        </div>
-        
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container md:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
+        tracking-widest w-full justify-evenly
+        md:flex-row md:mt-0 nav text-lg relative']) !!}
       </div>
       
     </div>
