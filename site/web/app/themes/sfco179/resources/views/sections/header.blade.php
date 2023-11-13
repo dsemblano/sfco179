@@ -11,7 +11,7 @@
     <div class="flex justify-between md:hidden">
       @if ( !is_front_page() )
       <a class="brand pl-6 pt-2" href="{{ home_url('/') }}">
-        <img width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
+        <img id="logobrand" width="50" height="40" src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial"/>
       </a>
       @endif
       <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 order-2 md:hidden"> 
