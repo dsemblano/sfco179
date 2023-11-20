@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'soleilbold';
+    src: url('~@fonts/soleil/soleilbold-webfont.woff2') format('woff2'),
+         url('~@fonts/soleil/soleilbold-webfont.woff') format('woff');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'soleilbook';
+    src: url('~@fonts/soleil/soleilbook-webfont.woff2') format('woff2'),
+         url('~@fonts/soleil/soleilbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'soleillight';
+    src: url('~@fonts/soleil/soleillight-webfont.woff2') format('woff2'),
+         url('~@fonts/soleil/soleillight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'soleilregular';
+    src: url('~@fonts/soleil/soleilregular-webfont.woff2') format('woff2'),
+         url('~@fonts/soleil/soleilregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

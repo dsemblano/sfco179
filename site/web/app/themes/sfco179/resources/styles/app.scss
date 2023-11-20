@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './menu.scss';
+@import 'common/fonts.scss';
+
 
 // main {
 //   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
@@ -19,7 +21,7 @@ h6 {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'soleilregular', sans-serif;
 }
 
 // Wordpress block
