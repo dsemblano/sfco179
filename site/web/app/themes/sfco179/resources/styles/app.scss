@@ -2,7 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './menu.scss';
-@import 'common/fonts.scss';
+@import 'common/fonts';
 
 
 // main {
@@ -16,12 +16,18 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 {  
   font-family: 'Bebas Neue', sans-serif;
 }
 
-p {
+p,
+pre {
   font-family: 'soleilregular', sans-serif;
+}
+
+blockquote,
+blockquote p {
+  font-family: 'soleillight', sans-serif;
 }
 
 // Wordpress block

@@ -13,6 +13,9 @@ module.exports = {
         greymenuhover: '#57604a',
         greynos: '#323237'
       }, // Extend Tailwind's default colors
+      fontFamily: {
+        sans: 'soleilregular, sans-serif',
+        },
       typography: {
         DEFAULT: { // this is for prose class
           css: {
