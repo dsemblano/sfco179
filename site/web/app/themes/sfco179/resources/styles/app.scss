@@ -42,6 +42,13 @@ blockquote p {
     padding-left: 0;
 }
 
+article {
+  p,  
+  pre {
+    @apply text-2xl;
+  }
+}
+
 $speed: 0.5s;
 
 .btn-flip{
