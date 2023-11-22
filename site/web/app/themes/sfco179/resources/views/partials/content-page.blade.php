@@ -1,4 +1,4 @@
-<article>
+<article class="prose:2xl">
     @php(the_content())
 </article>
 
