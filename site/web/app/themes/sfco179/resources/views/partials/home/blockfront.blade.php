@@ -6,7 +6,7 @@
                     <a class="" href="/eventos">179 Eventos</a>
                 </div>    --}}
                 <h1 class="logo">
-                    <img class="animate__animated animate__flipInX" width="160" height="128" src="@asset('images/sfco179_logo_branca.png')" alt="Logo SFCO 179">
+                    <img class="animate__animated animate__flipInX animate__delay-1s" width="160" height="128" src="@asset('images/sfco179_logo_branca.png')" alt="Logo SFCO 179">
                 </h1>
     
                 <div class="flex social-icons justify-around items-center gap-8 relative mt-14 text-whitenos">
