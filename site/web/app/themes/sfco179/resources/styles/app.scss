@@ -7,7 +7,7 @@
 @import "./arrowcdtop.scss";
 
 :root {
-  --animate-delay: 0.7s;
+  // --animate-delay: 0.7s;
 }
 
 
@@ -30,6 +30,10 @@ h6 {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+h1.logo img {
+  animation-delay: 0.7s;
+}
+
 p,
 pre {
   font-family: 'soleilregular', sans-serif;
@@ -43,6 +47,10 @@ blockquote p {
 .logos img,
 .social-icons svg {
   @apply hover:scale-105 transition duration-300 ease-in-out;
+}
+
+.logos a img {
+  animation-delay: 1s;
 }
 
 // Wordpress block
