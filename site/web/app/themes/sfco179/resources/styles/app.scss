@@ -36,7 +36,8 @@ blockquote p {
   font-family: 'soleillight', sans-serif;
 }
 
-.logos img {
+.logos img,
+.social-icons svg {
   @apply hover:scale-105 transition duration-300 ease-in-out;
 }
 
