@@ -5,7 +5,7 @@
                 {{-- <div class="flex social-icons justify-around text-white relative mt-14 text-2xl lg:hidden">
                     <a class="" href="/eventos">179 Eventos</a>
                 </div>    --}}
-                <h1 class="logo my-10">
+                <h1 class="logo mb-10">
                     <img class="animate__animated animate__flipInX animate__delay-1s" width="160" height="128" src="@asset('images/sfco179_logo_branca.png')" alt="Logo SFCO 179">
                 </h1>
 
