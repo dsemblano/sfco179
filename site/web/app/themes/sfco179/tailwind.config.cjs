@@ -13,6 +13,9 @@ module.exports = {
         greymenuhover: '#57604a',
         greynos: '#323237'
       }, // Extend Tailwind's default colors
+      height: {
+        'mobile': '90vh',
+      },
       fontFamily: {
         sans: 'soleilregular, sans-serif',
         },

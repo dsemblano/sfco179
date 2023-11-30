@@ -1,5 +1,5 @@
-<section class="bg-home bg-black h-full">
-    <div class="bg-homechild flex justify-center items-center min-h-screen">
+<section class="bg-home bg-black">
+    <div class="bg-homechild flex justify-center items-center h-mobile lg:h-screen">
         <header class="mx-auto container flex justify-center items-start">
             <div class="flex flex-col justify-between items-center">
                 {{-- <div class="flex social-icons justify-around text-white relative mt-14 text-2xl lg:hidden">
