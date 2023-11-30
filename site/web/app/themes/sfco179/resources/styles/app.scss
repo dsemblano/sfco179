@@ -6,6 +6,10 @@
 @import 'animate.css';
 @import "./arrowcdtop.scss";
 
+:root {
+  --animate-delay: 0.7s;
+}
+
 
 // main {
 //   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
