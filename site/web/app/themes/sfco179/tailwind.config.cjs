@@ -14,7 +14,7 @@ module.exports = {
         greynos: '#323237'
       }, // Extend Tailwind's default colors
       height: {
-        'mobile': '90vh',
+        'mobile': '80vh',
       },
       fontFamily: {
         sans: 'soleilregular, sans-serif',
