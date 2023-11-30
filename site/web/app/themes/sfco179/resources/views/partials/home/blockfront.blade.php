@@ -10,11 +10,11 @@
                 </h1>
 
                 <div class="logos flex flex-wrap-reverse lg:flex-row-reverse justify-center items-center gap-8 border-white border-b-2 border-solid pb-6 lg:pb-10 lg:mt-24">
-                    <a class="w-1/4 lg:w-auto" href="/eventos"><img class="" width="160" height="128" src="@asset('images/logos/179_evnts.png')" alt="Logo SFCO 179" alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://studiobrunosantos.com"><img class="" width="160" height="128" src="@asset('images/logos/bruno-santos-studio.png')" alt="Logo SFCO 179" alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://utopiatropical.com.br"><img class="" width="160" height="128" src="@asset('images/logos/utopia-tropical-chocolates.png')" alt="Logo SFCO 179" alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://www.royaltyqualitycoffee.com"><img class="" width="160" height="128" src="@asset('images/logos/royalty-quality-coffee.png')" alt="Logo SFCO 179" alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img class="" width="160" height="128" src="@asset('images/logos/tijolo-cwb.png')" alt="Logo SFCO 179" alt=""></a>
+                    <a class="w-1/4 lg:w-auto" href="/eventos"><img class="" width="100" height="99" src="@asset('images/logos/179_evnts.png')" alt="Logo SFCO 179" alt=""></a>
+                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://studiobrunosantos.com"><img class="" width="100" height="99" src="@asset('images/logos/bruno-santos-studio.png')" alt="Logo SFCO 179" alt=""></a>
+                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://utopiatropical.com.br"><img class="" width="100" height="99" src="@asset('images/logos/utopia-tropical-chocolates.png')" alt="Logo SFCO 179" alt=""></a>
+                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://www.royaltyqualitycoffee.com"><img class="" width="100" height="99" src="@asset('images/logos/royalty-quality-coffee.png')" alt="Logo SFCO 179" alt=""></a>
+                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img class="" width="100" height="99" src="@asset('images/logos/tijolo-cwb.png')" alt="Logo SFCO 179" alt=""></a>
                 </div>
     
                 <div class="flex flex-wrap social-icons justify-center items-center gap-8 relative mt-14 text-whitenos">
