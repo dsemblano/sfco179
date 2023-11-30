@@ -17,7 +17,7 @@
                     <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img class="" width="140" height="138" src="@asset('images/logos/tijolo-cwb.png')" alt="Logo SFCO 179" alt=""></a>
                 </div>
     
-                <div class="flex flex-wrap social-icons justify-center items-center gap-8 relative mt-14 text-whitenos">
+                <div class="flex flex-wrap social-icons justify-center items-center gap-8 relative mt-10 text-whitenos">
                     <a class="w-1/4 lg:w-auto flex items-center justify-center" href="https://www.instagram.com/sfco179" target="_blank" aria-label="Link para o Instagram">
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
                             <path
