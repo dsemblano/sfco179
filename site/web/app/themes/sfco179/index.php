@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
   </head>
 
-  <body <?php body_class(); ?>>
+
+  <body <?php body_class(! is_front_page() ? "bg-white" : "bg-black"); ?>>
     <?php wp_body_open(); ?>
     <?php echo \Roots\view('partials/gtagbody')->render(); ?>
     <?php do_action('get_header'); ?>
