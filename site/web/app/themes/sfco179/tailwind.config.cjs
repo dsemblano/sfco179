@@ -26,6 +26,7 @@ module.exports = {
               obj[heading] = { fontWeight: '400' };
               return obj;
             }, {}),
+            maxWidth: '100ch', // add required value here
           },
         },
       },
