@@ -59,6 +59,8 @@
     "wpackagist-plugin/wp-enable-webp": ">=1.0",
     "wpackagist-plugin/block-navigation": ">=4.0.1",
     "wpackagist-plugin/wayfinder": ">=1.1.2",
+    "wpackagist-plugin/contact-form-7": ">=5.8.4",
+    "wpackagist-plugin/wp-mail-smtp": ">=3.10.0",
     "roots/acorn": "^2.1"
   },
   "require-dev": {
