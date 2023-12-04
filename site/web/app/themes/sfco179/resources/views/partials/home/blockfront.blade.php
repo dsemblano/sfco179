@@ -16,10 +16,10 @@
                             src="@asset('images/logos/bruno-santos-studio.png')" alt="Logo Studio Bruno Santos" alt=""></a>
                     <a target="_blank" class="w-1/4 lg:w-auto" href="https://utopiatropical.com.br"><img class="animate__animated animate__flipInX" width="90" height="89"
                             src="@asset('images/logos/utopia-tropical-chocolates.png')" alt="Logo Utopia Tropical" alt=""></a>
+                            <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img class="animate__animated animate__flipInX" width="140" height="138"
+                                src="@asset('images/logos/tijolo-cwb.png')" alt="Logo Tijolo CWB Restaurante" alt=""></a>
                     <a target="_blank" class="w-1/4 lg:w-auto" href="https://www.royaltyqualitycoffee.com"><img class="animate__animated animate__flipInX" width="100"
                             height="99" src="@asset('images/logos/royalty-quality-coffee.png')" alt="Logo Royalty Quality Coffee" alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img class="animate__animated animate__flipInX" width="140" height="138"
-                            src="@asset('images/logos/tijolo-cwb.png')" alt="Logo Tijolo CWB Restaurante" alt=""></a>
                 </div>
     
                 <div class="flex flex-wrap social-icons justify-center items-center gap-8 relative mt-10     text-whitenos">
