@@ -140,7 +140,7 @@ $speed: 0.5s;
 .wpcf7-form {
   
   .flexcf7 {
-    @apply flex flex-row gap-x-4;
+    @apply flex flex-col lg:flex-row gap-x-4;
   
   }
 
