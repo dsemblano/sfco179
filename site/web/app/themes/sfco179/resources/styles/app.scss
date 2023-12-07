@@ -144,7 +144,7 @@ $speed: 0.5s;
   
   }
 
-  .wpcf7-form-control {
+  .wpcf7-form-control, .wpcf7-response-output {
     @apply rounded w-full;
   }
 
@@ -153,6 +153,6 @@ $speed: 0.5s;
     }
 
     .wpcf7-response-output {
-      @apply w-full lg:w-1/4;
+      @apply rounded w-full lg:w-1/4;
     }
 } 
