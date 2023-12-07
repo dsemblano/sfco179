@@ -158,6 +158,6 @@ $speed: 0.5s;
     }
 
     .wpcf7-response-output {
-      width: 25%;
+      @apply w-full lg:w-1/4;
     }
 } 
