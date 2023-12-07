@@ -150,7 +150,7 @@ $speed: 0.5s;
     input,
     .wpcf7-form-control-wrap,
     textarea {
-      @apply rounded max-w-full;
+      @apply rounded;
     }
 
     .wpcf7-submit {
