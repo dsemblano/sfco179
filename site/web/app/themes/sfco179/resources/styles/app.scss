@@ -70,6 +70,10 @@ article {
   }
 }
 
+.wp-block-heading {
+  @apply lg:text-center mt-6;
+}
+
 $speed: 0.5s;
 
 .btn-flip{
