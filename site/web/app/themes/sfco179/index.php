@@ -6,9 +6,6 @@
     <?php wp_head(); ?>
     <?php echo \Roots\view('partials/favicons')->render(); ?>
     <?php echo \Roots\view('partials/gtaghead')->render(); ?>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
   </head>
 
 
