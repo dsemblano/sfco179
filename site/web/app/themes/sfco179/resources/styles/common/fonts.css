@@ -11,6 +11,7 @@
     font-family: 'soleilbook';
     src: url('~@fonts/soleil/soleilbook-webfont.woff2') format('woff2'),
          url('~@fonts/soleil/soleilbook-webfont.woff') format('woff');
+    font-display: swap;
     font-weight: normal;
     font-style: normal;
 }
@@ -19,6 +20,7 @@
     font-family: 'soleillight';
     src: url('~@fonts/soleil/soleillight-webfont.woff2') format('woff2'),
          url('~@fonts/soleil/soleillight-webfont.woff') format('woff');
+    font-display: swap;
     font-weight: normal;
     font-style: normal;
 }
@@ -28,6 +30,7 @@
     font-family: 'soleilregular';
     src: url('~@fonts/soleil/soleilregular-webfont.woff2') format('woff2'),
          url('~@fonts/soleil/soleilregular-webfont.woff') format('woff');
+    font-display: swap;
     font-weight: normal;
     font-style: normal;
 }
@@ -35,6 +38,7 @@
 @font-face {
     font-family: 'bebasregular';
     src: url('~@fonts/bebas/BebasNeue-Regular.ttf') format('truetype');
+    font-display: swap;
     font-weight: normal;
     font-style: normal;
 }
