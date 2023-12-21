@@ -153,7 +153,7 @@ $speed: 0.5s;
   }
 
     .wpcf7-submit {
-      @apply bg-greymenu hover:bg-greymenuhover text-white font-bold py-2 px-4 rounded;
+      @apply bg-greymenu hover:bg-greymenuhover text-white font-bold py-2 px-4 rounded cursor-pointer;
     }
 
     .wpcf7-response-output {
