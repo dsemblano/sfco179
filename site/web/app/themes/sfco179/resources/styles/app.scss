@@ -1,6 +1,7 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import './menu.scss';
 @import 'common/fonts';
 @import 'animate.css';
@@ -15,11 +16,6 @@
 //   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
 //   height: calc(var(--vh, 1vh) * 100);
 // }
-
-// body {
-//   background-color: black;
-// }
-
 
 h1,
 h2,

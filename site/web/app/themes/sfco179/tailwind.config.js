@@ -1,6 +1,8 @@
-// https://tailwindcss.com/docs/configuration
-module.exports = {
-  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
+import typography from '@tailwindcss/typography';
+
+/** @type {import('tailwindcss').Config} config */
+const config = {
+  content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   theme: {
     container: {
       center: true,
@@ -33,7 +35,8 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin'),
-    require('@tailwindcss/typography')
+    typography,
   ],
 };
+
+export default config;
