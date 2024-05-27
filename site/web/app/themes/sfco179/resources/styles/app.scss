@@ -59,6 +59,17 @@ blockquote p {
     padding-left: 0;
 }
 
+.page main {
+  h2 {
+    @apply text-5xl;
+  
+  }
+
+  h3 {
+    @apply text-4xl;
+  }
+}
+
 article {
   p,  
   pre {
