@@ -167,3 +167,17 @@ $speed: 0.5s;
       @apply rounded w-4/5 lg:w-1/4;
     }
 } 
+
+figure .lazyloading {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #E2AA9F;
+  width: 5rem;
+  height: 5rem;
+  animation: spinner 4s linear infinite;
+}
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
