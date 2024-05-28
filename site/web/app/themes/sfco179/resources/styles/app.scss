@@ -169,13 +169,12 @@ $speed: 0.5s;
 }
 
 figure .lazyloading {
-  display: none;
   margin: auto;
   border: 20px solid #EAF0F6;
   border-radius: 50%;
   border-top: 20px solid #777777;
-  width: 50px !important;
-  height: 50px !important;
+  width: 5rem;
+  height: 5rem;
   animation: spinner 4s linear infinite;
 }
 @keyframes spinner {
