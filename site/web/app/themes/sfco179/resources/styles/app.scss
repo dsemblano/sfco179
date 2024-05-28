@@ -166,13 +166,13 @@ $speed: 0.5s;
     .wpcf7-response-output {
       @apply rounded w-4/5 lg:w-1/4;
     }
-} 
+} x'
 
 figure .lazyloading {
   margin: auto;
   border: 20px solid #EAF0F6;
   border-radius: 50%;
-  border-top: 20px solid #E2AA9F;
+  border-top: 20px solid #777777;
   width: 5rem;
   height: 5rem;
   animation: spinner 4s linear infinite;
