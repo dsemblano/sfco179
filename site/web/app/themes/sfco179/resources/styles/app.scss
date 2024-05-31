@@ -156,7 +156,13 @@ $speed: 0.5s;
   }
 
   .wpcf7-form-control, .wpcf7-response-output {
-    @apply rounded w-full;
+    @apply w-full border-solid border-b border-gray-500;
+
+    &:focus-visible {
+      @apply border-gray-900;
+
+      outline-width: 0;
+    }
   }
 
     .wpcf7-submit {
@@ -181,3 +187,4 @@ figure .lazyloading {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
