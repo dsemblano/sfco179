@@ -22,8 +22,7 @@
 
     <?php $current_page = basename(get_permalink()); ?>
 
-    <main id="main" class="main{{ ! is_front_page() ? " $current_page container mx-auto prose md:max-w-fit md:mx-20"
-      : '' }}">
+    <main id="main" class="main{{ ! is_front_page() ? " $current_page container prose lg:max-w-fit lg:mx-60" : '' }}">
       @yield('content')
     </main>
 
