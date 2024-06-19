@@ -1,6 +1,7 @@
 import domReady from '@roots/sage/client/dom-ready';
 import 'flowbite/dist/flowbite.js';
 import './arrowtop.js'
+import './logoscroll.js';
 
 /**
  * Application entrypoint

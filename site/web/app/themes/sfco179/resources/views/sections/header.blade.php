@@ -1,17 +1,18 @@
-<header class="banner bg-black w-full">
+<header id="banner" class="bg-black w-full z-50 bg-tijolo sticky top-0 left-0">
   {{-- <a class="brand" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a> --}}
 
-  <nav class="nav-primary container px-0 lg:px-24">
+  <nav id="banner-nav" class="nav-primary container px-0 lg:px-24">
     {{-- menu mobile --}}
 
     @if (! is_front_page())
 
     <div class="flex justify-between lg:hidden">
       @if ( !is_front_page() )
+      {{-- Mobile logo --}}
       <a class="brand pl-6 pt-2" href="{{ home_url('/') }}">
-        <img id="logobrand" width="50" height="40" src="@asset('images/sfco179_logo_branca.png')"
+        <img id="logoname" width="50" height="40" src="@asset('images/sfco179_logo_branca.png')"
           alt="SFCO 179 página inicial" />
       </a>
       @endif
@@ -58,7 +59,7 @@
     <div class="hidden lg:flex justify-between items-center w-full relative" id="mobile-menu-3">
       @if ( !is_front_page() )
       <a title="Ir para a home" class="brand hidden lg:block pt-2" href="{{ home_url('/') }}">
-        <img class="hover:scale-110 transition duration-300 ease-in-out" width="50" height="40"
+        <img id="logoname" class="hover:scale-110 transition duration-300 ease-in-out" width="100" height="90"
           src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial" />
       </a>
       @endif
