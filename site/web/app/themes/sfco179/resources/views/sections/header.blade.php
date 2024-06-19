@@ -8,7 +8,7 @@
 
     @if (! is_front_page())
 
-    <div class="flex justify-between lg:hidden">
+    <div class="flex justify-between lg:hidden bg-black">
       @if ( !is_front_page() )
       {{-- Mobile logo --}}
       <a class="brand pl-6 pt-2" href="{{ home_url('/') }}">
