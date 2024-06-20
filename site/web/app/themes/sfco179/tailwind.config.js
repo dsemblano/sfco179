@@ -10,6 +10,7 @@ const config = {
     },
     extend: {
       colors: {
+        sfco179: '#FF5100',
         whitenos: '#e5e7eb',
         greymenu: '#3e4435',
         greymenuhover: '#57604a',

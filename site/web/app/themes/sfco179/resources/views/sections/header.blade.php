@@ -1,7 +1,7 @@
 <header id="banner" class="bg-black w-full z-50 bg-tijolo sticky top-0 left-0">
-  {{-- <a class="brand" href="{{ home_url('/') }}">
-    {!! $siteName !!}
-  </a> --}}
+  @php
+  $current_page = get_the_title();
+  @endphp
 
   <nav id="banner-nav" class="nav-primary container px-0 lg:px-24">
     {{-- menu mobile --}}
@@ -9,11 +9,14 @@
     @if (! is_front_page())
 
     <div class="flex justify-between lg:hidden bg-black">
+
       @if ( !is_front_page() )
       {{-- Mobile logo --}}
       <a class="brand pl-6 pt-2" href="{{ home_url('/') }}">
+
         <img id="logoname" width="50" height="40" src="@asset('images/sfco179_logo_branca.png')"
           alt="SFCO 179 página inicial" />
+
       </a>
       @endif
       <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 order-2 lg:hidden">
@@ -61,6 +64,8 @@
       <a title="Ir para a home" class="brand hidden lg:block pt-2" href="{{ home_url('/') }}">
         <img id="logoname" class="hover:scale-110 transition duration-300 ease-in-out" width="100" height="90"
           src="@asset('images/sfco179_logo_branca.png')" alt="SFCO 179 página inicial" />
+        {{-- <span id="logosurnamepage"
+          class="text-xs text-white top-16 absolute hidden font-bold pt-1">{{$current_page}}</span> --}}
       </a>
       @endif
       <div class="menuwrap bg-greynos lg:bg-transparent w-full">
