@@ -62,7 +62,7 @@ class Post extends Composer
         }
 
         if (is_404()) {
-            return __('Not Found', 'sage');
+            return __('Página não encontrada', 'sage');
         }
 
         return get_the_title();
