@@ -7,7 +7,7 @@
                 </div> --}}
                 <h1 class="logo mb-14">
                     <img class="animate__animated animate__flipInX" width="160" height="128"
-                        src="@asset('images/sfco179_logo_branca.png')" alt="Logo SFCO 179">
+                        src="@asset('images/sfco179logo.png')" alt="Logo SFCO 179">
                 </h1>
 
                 <div
