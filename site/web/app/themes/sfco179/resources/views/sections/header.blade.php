@@ -3,12 +3,12 @@
   $current_page = get_the_title();
   @endphp
 
-  <nav id="banner-nav" class="nav-primary container px-0 lg:px-24">
+  <nav id="banner-nav" class="nav-primary container">
     {{-- menu mobile --}}
 
     @if (! is_front_page())
 
-    <div class="flex justify-between lg:hidden bg-black">
+    <div class="flex justify-between h-full lg:hidden">
 
       @if ( !is_front_page() )
       {{-- Mobile logo --}}
