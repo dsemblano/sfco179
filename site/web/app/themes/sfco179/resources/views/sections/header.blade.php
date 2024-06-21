@@ -12,14 +12,14 @@
 
       @if ( !is_front_page() )
       {{-- Mobile logo --}}
-      <a class="brand pl-6 pt-2" href="{{ home_url('/') }}">
+      <a class="brand pt-2" href="{{ home_url('/') }}">
 
         <img id="logoname" width="50" height="40" src="@asset('images/sfco179logo.png')"
           alt="SFCO 179 página inicial" />
 
       </a>
       @endif
-      <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 order-2 lg:hidden">
+      <div id="mobile-menu" class="flex flex-wrap justify-end order-2 lg:hidden">
         <button id="button-sandwich" aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3"
           type="button" class="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden order-2"
           aria-controls="mobile-menu-3" aria-expanded="false">
@@ -40,7 +40,7 @@
     @else
 
 
-    <div id="mobile-menu" class="flex flex-wrap justify-end ml-8 lg:hidden">
+    <div id="mobile-menu" class="flex flex-wrap justify-end items-center mx-auto lg:hidden py-4">
       <button id="button-sandwich" aria-label="Botão menu sanduíche" data-collapse-toggle="mobile-menu-3" type="button"
         class="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden order-2"
         aria-controls="mobile-menu-3" aria-expanded="false">
