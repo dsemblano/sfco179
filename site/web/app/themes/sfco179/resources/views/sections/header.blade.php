@@ -59,7 +59,9 @@
     @endif
 
     {{-- menu desktop --}}
-    <div class="hidden lg:flex justify-between items-center w-full relative" id="mobile-menu-3">
+    <div
+      class="hidden lg:flex justify-between items-center w-full relative animate__animated animate__fast animate__fadeInDownBig"
+      id="mobile-menu-3">
       @if ( !is_front_page() )
       <a title="Ir para a home" class="brand hidden lg:block pt-2" href="{{ home_url('/') }}">
         <img id="logoname" class="hover:scale-110 transition duration-300 ease-in-out" width="100" height="90"
