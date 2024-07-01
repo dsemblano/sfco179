@@ -1251,6 +1251,16 @@
           "slug": "rose-950"
         },
         {
+          "color": "#fffaf4",
+          "name": "Whitebg",
+          "slug": "whitebg"
+        },
+        {
+          "color": "#47403a",
+          "name": "Titulo",
+          "slug": "titulo"
+        },
+        {
           "color": "#ff5100",
           "name": "Sfco179",
           "slug": "sfco179"

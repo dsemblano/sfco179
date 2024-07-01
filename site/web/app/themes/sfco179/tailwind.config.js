@@ -15,6 +15,8 @@ const config = {
     },
     extend: {
       colors: {
+        whitebg: '#FFFAF4',
+        titulo: '#47403A',
         sfco179: '#FF5100',
         whitenos: '#e5e7eb',
         greymenu: '#3e4435',

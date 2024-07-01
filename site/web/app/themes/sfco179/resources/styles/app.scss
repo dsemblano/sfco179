@@ -17,20 +17,39 @@
 //   height: calc(var(--vh, 1vh) * 100);
 // }
 
+// bg
+// .wp-block-group,
+// .has-white-background-color,
+// .wpcf7-form-control,
+// input,
+// figure {
+//   @apply bg-whitebg;
+// }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {  
+  // @apply text-titulo;
+
   font-family: 'bebasregular', sans-serif;
 }
+
+// p {
+//   @apply text-titulo;
+// }
 
 h1.logo img {
   animation-delay: 0.7s;
 }
 
-p,
+#app {
+  @apply bg-whitebg;
+}
+
+.wp-block-group,
 #logosurnamepage,
 pre {
   font-family: 'soleilregular', sans-serif;
