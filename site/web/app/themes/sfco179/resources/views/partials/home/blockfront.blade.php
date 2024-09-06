@@ -15,10 +15,6 @@
                     <a class="w-1/4 lg:w-auto" href="/eventos"><img class="animate__animated animate__flipInX"
                             width="80" height="79" src="@asset('images/logos/179_evnts.png')" alt="Logo SFCO Eventos"
                             alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://studiobrunosantos.com"><img
-                            class="animate__animated animate__flipInX" width="100" height="99"
-                            src="@asset('images/logos/bruno-santos-studio.png')" alt="Logo Studio Bruno Santos"
-                            alt=""></a>
                     <a target="_blank" class="w-1/4 lg:w-auto" href="https://utopiatropical.com.br"><img
                             class="animate__animated animate__flipInX" width="90" height="89"
                             src="@asset('images/logos/utopia-tropical-chocolates.png')" alt="Logo Utopia Tropical"
