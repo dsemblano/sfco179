@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a99aafdfca53312948d14d66289eee9d",
+    "content-hash": "9a95b2d28c854936dc0a24c714531909",
     "packages": [
         {
             "name": "brick/math",
@@ -6478,6 +6478,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/remove-category-url",
+            "version": "1.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/remove-category-url/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/remove-category-url.zip?timestamp=1580121051"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/remove-category-url/"
         },
         {
             "name": "wpackagist-plugin/responsive-lightbox",
