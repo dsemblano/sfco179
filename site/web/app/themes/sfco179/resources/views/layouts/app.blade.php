@@ -22,8 +22,14 @@
 
     <?php $current_page = basename(get_permalink()); ?>
 
-    <main id="main" class="main{{ ! is_front_page() ? " $current_page container" : '' }}">
+    <main id="main" class="main pt-28">
+      @if (! is_front_page() && ! is_page('reservas') )
+      <div class="container prose mx-auto prose-a:no-underline prose-h1:mb-10 prose-h2:mb-4 prose-h3:mb-0 prose-blockquote:border-tijolopink prose-blockquote:text-tijolopink prose-figure:mb-4">
+        @yield('content')
+      </div>
+      @else
       @yield('content')
+      @endif
     </main>
 
     @hasSection('sidebar')

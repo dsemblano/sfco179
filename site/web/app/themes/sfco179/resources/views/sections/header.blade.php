@@ -15,7 +15,7 @@
       <a class="brand pt-2" href="{{ home_url('/') }}">
 
         <img id="logoname" width="50" height="40" src="@asset('images/sfco179logo.png')"
-          alt="SFCO 179 página inicial" />
+          alt="SFCO179 página inicial" />
 
       </a>
       @endif
@@ -63,7 +63,7 @@
       @if ( !is_front_page() )
       <a title="Ir para a home" class="brand hidden lg:block pt-2" href="{{ home_url('/') }}">
         <img id="logoname" class="hover:scale-110 transition duration-300 ease-in-out" width="100" height="90"
-          src="@asset('images/sfco179logo.png')" alt="SFCO 179 página inicial" />
+          src="@asset('images/sfco179logo.png')" alt="SFCO179 página inicial" />
         {{-- <span id="logosurnamepage"
           class="text-xs text-white top-16 absolute hidden font-bold pt-1">{{$current_page}}</span> --}}
       </a>

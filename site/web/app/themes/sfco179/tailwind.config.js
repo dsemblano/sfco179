@@ -32,6 +32,7 @@ const config = {
       typography: {
         DEFAULT: { // this is for prose class
           css: {
+            maxWidth: '150ch', // add required value here
             ...['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].reduce((obj, heading) => {
               obj[heading] = { fontWeight: '400' };
               return obj;
