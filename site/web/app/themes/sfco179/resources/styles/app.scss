@@ -247,3 +247,12 @@ figure .lazyloading {
 // }
 
 
+
+.diaadia {
+  @apply text-base mt-2 flex flex-col lg:flex-row gap-x-4;
+
+  header {
+    display: flex;
+    align-items: center;
+  }
+}
