@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   @php(do_action('get_header'))
   @php(wp_head())
+  <link rel="author" type="text/plain" href="{{ asset('humans.txt') }}" />
   <?php echo \Roots\view('partials/favicons')->render(); ?>
   <?php echo \Roots\view('partials/gtaghead')->render(); ?>
 </head>

@@ -1,0 +1,17 @@
+/* TEAM */
+    Site: https://sfco179.com.br
+    Owner: Mário Nicolau
+    Chief Executive Officer: Mário Nicolau
+    Location: Curitiba BR
+    Developer: Daniel Semblano
+    Contact: dsemblano [at] gmail.com
+    Twitter: @dsemblano
+
+
+/* SITE */
+    Site name: SFCO179 Multiespaço
+    Descrição: Restaurante, café, fábrica de chocolate, espaço de eventos, locação de vídeo e foto, no centro histórico de Curitiba! Rua São Francisco 179.
+    Description: Restaurant, coffee shop, chocolate factory, event space, Photography and video shoots rental space, in the historic center of Curitiba! São Francisco street 179.
+    Standards: HTML5, CSS3, JS
+    Language: Brazilian Portuguese
+    Components: This website was built with Roots stack (Trellis, Bedrock, Sage, Tailwind CSS)
