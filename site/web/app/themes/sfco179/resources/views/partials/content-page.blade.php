@@ -1,20 +1,9 @@
-<article @php(post_class('diaadia'))>
-  <a class="img-link lg:w-1/3" href="{{ get_permalink() }}">
-    <figure class="imgpost rounded">
-      {{ the_post_thumbnail('medium_large', array( 'class' => 'w-full rounded' ) ) }}
-    </figure>
-  </a>
-  <header>
-      <h2 class="text-left mt-0">
-        <a class="postslinks" href="{{ get_permalink() }}">
-          {!! $title !!}
-        </a>
-      </h2>
+<div class="prose max-w-max">
+  @php(the_content())
+</div>
 
-      {{-- <p class="mb-3 excerpt">
-        <a class="postslinks" href="{{ get_permalink() }}">
-          {{ get_the_excerpt() }}
-        </a>
-      </p> --}}
-  </header>
-</article>
+@if ($pagination)
+<nav class="page-nav" aria-label="Page">
+  {!! $pagination !!}
+</nav>
+@endif
