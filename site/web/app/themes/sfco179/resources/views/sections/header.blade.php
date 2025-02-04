@@ -70,7 +70,7 @@
       @endif
       <div class="menuwrap bg-greynos lg:bg-transparent w-full">
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_class' => 'menu-principal-container
-        lg:order-2 px-6 relative', 'menu_class' => 'flex flex-col py-2 text-white
+        lg:order-2 px-6 relative', 'menu_class' => 'flex flex-col pb-14 text-white
         tracking-widest w-full justify-evenly
         lg:flex-row lg:mt-0 nav text-lg relative']) !!}
       </div>

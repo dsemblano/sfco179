@@ -9,7 +9,7 @@
   }
 
   img {
-    @apply relative pb-4 w-14;  
+    @apply relative pb-12 w-14;  
   }
 } 
 
@@ -27,6 +27,31 @@
     @apply top-6 w-8;
   }
 } 
+
+.menu-principal-container {
+  @apply w-full;
+
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  ul#menu-principal {
+    animation: slide-down .3s ease-out;
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .sub-menu {
+      @apply pl-2;
+
+    }
+
+    li>a:not(:last-child)::after {
+      content: " ▾";
+    }
+
+  }
+
+}
 
 @screen lg {
   #banner #banner-nav {
@@ -139,12 +164,38 @@
 
 }
 
-@screen xl {
+@screen lg {
 
   .menu-principal-container {
     box-shadow: none;
 
-    ul#menu-menu {
+    ul#menu-principal {
+
+      .sub-menu {
+        @apply shadow-md bg-greynos;
+
+        // margin-left: 0;
+        // display: none;
+        position: absolute;
+        top: 1.5rem;
+        // top: 1.7rem;
+        // left: 0;
+        z-index: 99999;
+        visibility: hidden;
+        opacity: 0;
+        // min-width: 15rem;
+        // max-width: 25rem;
+        width: 100%;
+        // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+        // padding: 0.5rem 1rem 1rem 1rem;
+        inset: 0px auto auto 0px;
+        margin-top: 2.1rem;
+        // transform: translate3d(415.2px, 70.4px, 0px);
+
+        li {
+          @apply py-6;
+        }
+      }
 
       li {
         margin-bottom: 0;
@@ -155,26 +206,26 @@
         }
       }
 
-      .sub-menu {
-        margin-left: 0;
-        display: none;
-        position: absolute;
-        top: 1.5rem;
-        left: 0;
-        z-index: 99999;
-        visibility: hidden;
-        opacity: 0;
-        // min-width: 15rem;
-        // max-width: 25rem;
-        width: 30rem;
-        transition: all 0.5s ease;
-        // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-        padding: 0.5rem 1rem 1rem 1rem;
+      // .sub-menu {
+      //   margin-left: 0;
+      //   display: none;
+      //   position: absolute;
+      //   top: 1.5rem;
+      //   left: 0;
+      //   z-index: 99999;
+      //   visibility: hidden;
+      //   opacity: 0;
+      //   // min-width: 15rem;
+      //   // max-width: 25rem;
+      //   width: 30rem;
+      //   transition: all 0.5s ease;
+      //   // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      //   padding: 0.5rem 1rem 1rem 1rem;
 
-        li {
-          margin-bottom: 0.5rem;
-        }
-      }
+      //   li {
+      //     margin-bottom: 0.5rem;
+      //   }
+      // }
 
       li:hover>ul,
       li:focus-within>ul,
