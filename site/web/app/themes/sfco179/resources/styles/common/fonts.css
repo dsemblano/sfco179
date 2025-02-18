@@ -7,3 +7,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'oswald';
+    src: url('~@fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype-variations');
+    font-display: swap;
+    font-weight: 100 900;
+    font-style: normal;
+  }
