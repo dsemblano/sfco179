@@ -100,7 +100,7 @@ blockquote p {
   }
 
   p {
-    @apply text-xl;
+    @apply text-xl lg:!text-2xl;
   }
 }
 
