@@ -1309,8 +1309,8 @@
       "customFontSize": false,
       "fontFamilies": [
         {
-          "fontFamily": "soleilregular, sans-serif",
-          "name": "Soleilregular",
+          "fontFamily": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+          "name": "Ui-sans-serif",
           "slug": "sans"
         },
         {

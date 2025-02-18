@@ -26,9 +26,6 @@ const config = {
       height: {
         'mobile': '80vh',
       },
-      fontFamily: {
-        sans: 'soleilregular, sans-serif',
-        },
       typography: {
         DEFAULT: { // this is for prose class
           css: {
