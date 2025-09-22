@@ -11,7 +11,7 @@
                 </h1>
 
                 <div
-                    class="logos flex flex-row justify-center items-center gap-8 border-white border-b border-solid pb-6 lg:pb-10 lg:mt-24">
+                    class="logos flex flex-row justify-center items-center gap-8 pb-6 lg:pb-10 lg:mt-24">
                     <a class="w-1/4 lg:w-auto" href="/eventos"><img class="animate__animated animate__flipInX"
                             width="80" height="79" src="@asset('images/logos/179_evnts.png')" alt="Logo SFCO Eventos"
                             alt=""></a>
@@ -22,10 +22,6 @@
                     <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img
                             class="animate__animated animate__flipInX" width="140" height="138"
                             src="@asset('images/logos/tijolo-cwb.png')" alt="Logo Tijolo CWB Restaurante" alt=""></a>
-                    <a target="_blank" class="w-1/4 lg:w-auto" href="https://www.royaltyqualitycoffee.com"><img
-                            class="animate__animated animate__flipInX" width="100" height="99"
-                            src="@asset('images/logos/royalty-quality-coffee.png')" alt="Logo Royalty Quality Coffee"
-                            alt=""></a>
                 </div>
 
                 <div
