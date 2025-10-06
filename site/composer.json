@@ -54,7 +54,6 @@
     "wpackagist-plugin/redirection": ">=5.2.3",
     "wpackagist-plugin/autodescription": ">=4.0.4",
     "wpackagist-plugin/regenerate-thumbnails": ">=3.1.5",
-    "wpackagist-plugin/responsive-lightbox": ">=2.4.1",
     "wpackagist-plugin/wp-enable-webp": ">=1.0",
     "wpackagist-plugin/block-navigation": ">=4.0.1",
     "wpackagist-plugin/contact-form-7": ">=5.8.4",
