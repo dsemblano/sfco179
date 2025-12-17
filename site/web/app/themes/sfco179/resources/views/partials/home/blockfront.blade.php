@@ -21,7 +21,7 @@
                             alt=""></a>
                     <a target="_blank" class="w-1/4 lg:w-auto" href="https://tijolocwb.com.br"><img
                             class="animate__animated animate__flipInX" width="140" height="138"
-                            src="@asset('images/logos/tijolo-cwb.png')" alt="Logo Tijolo CWB Restaurante" alt=""></a>
+                            src="@asset('images/logos/tijolologo.webp')" alt="Logo Tijolo CWB Restaurante" alt=""></a>
                 </div>
 
                 <div
