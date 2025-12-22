@@ -59,6 +59,7 @@
     "wpackagist-plugin/contact-form-7": ">=5.8.4",
     "wpackagist-plugin/wp-mail-smtp": ">=3.10.0",
     "wpackagist-plugin/remove-category-url": ">=1.1.6",
+    "wpackagist-plugin/wordpress-popup":">=7.8.9.1",
     "roots/acorn": "^4.2"
   },
   "require-dev": {
